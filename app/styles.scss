@@ -20,7 +20,13 @@ body {
   font-size: 1.5rem;
   background: #fff;
   color: $color-black;
-  text-align: center;
+}
+
+hr {
+  height: 2px;
+  margin: 3rem 0;
+  border: none;
+  background: $color-gray-light-2;
 }
 
 button {
@@ -28,10 +34,16 @@ button {
   font-family: sans-serif;
   font-size: 1.5rem;
   color: FireBrick;
-  background: transparent;;
+  background: transparent;
 }
 
 .container {
   max-width: 1100px;
   margin: 0 auto;
+}
+
+.label {
+  color: rgba($color-black, 0.5);
+  font-size: 1.3rem;
+  margin: 2rem 0;
 }
