@@ -1,0 +1,4 @@
+<div class="HeadingComp">
+  <h1 class="title">{{title}}</h1>
+  <h2 class="subtitle">{{subtitle}}</h2>
+</div>

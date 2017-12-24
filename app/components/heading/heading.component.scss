@@ -1,0 +1,21 @@
+@import '../../_variables';
+
+.HeadingComp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 195px;
+  background: $color-gray-light;
+
+  .title {
+    font-size: 2.7rem;
+    margin: 0 0 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.9rem;
+    font-weight: normal;
+    margin: 0;
+  }
+}
