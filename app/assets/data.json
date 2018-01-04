@@ -1,0 +1,422 @@
+{
+  "data": {
+    "repository": {
+      "tags": {
+        "edges": [
+          {
+            "tag": {
+              "name": "v0.5.1rc1",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/5491c310a6c70220e32c123ba7b8ce3da3e26126",
+                "message": "Version 0.5.1 release candidate 1\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2011-12-12T19:03:56.000-05:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.5.1rc2",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/b12fc3e11223557855bb2394e1097afbf0de0b79",
+                "message": "Version 0.5.1 release candidate 2\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2011-12-13T15:57:41.000-05:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.5.1",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/b12fc3e11223557855bb2394e1097afbf0de0b79",
+                "message": "Version 0.5.1 release\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2011-12-15T16:30:04.000-05:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.5.2ppc",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/23084555fa45d59bf6b45292035baad83792df80",
+                "message": "Peercoin: v0.5.2 release\n  - New API support from bitcoin\n  - Protocol enhancements\n  - Mainnet protocol upgrade April 26, 2016\n  - Nodes running release v0.4.2 should upgrade by April 25, 2016\n  - Nodes running release candidate v0.5.1 RC2 should upgrade by March 14\n",
+                "tagger": {
+                  "name": "Sunny King",
+                  "email": "sunnyking9999@gmail.com",
+                  "date": "2016-03-05T23:46:27.000Z"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.5.2",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/7de7913abdbaa30f0ef6ad1b63508d3a8441d08f",
+                "message": "Version 0.5.2 release\n",
+                "tagger": {
+                  "name": "Luke Dashjr",
+                  "email": "luke-jr+git@utopios.org",
+                  "date": "2012-01-09T11:56:20.000-05:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.5.3ppc",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/f01ccea4b515ce6e01f4a50cc6b50a4f3337c7ee",
+                "message": "Bug fix release.\nHot fix of Qt clients transaction list incorrect amount display.\nUsers of v0.5.2 Qt client are recommended to upgrade.\n",
+                "tagger": {
+                  "name": "Sunny King",
+                  "email": "sunnyking9999@gmail.com",
+                  "date": "2016-03-21T21:45:17.000Z"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.5.3rc4",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/d05c03ab4ed23389b1326f9b7c77a8d7b8d6588d",
+                "message": "Version 0.5.3 release candidate 4\n",
+                "tagger": {
+                  "name": "Luke Dashjr",
+                  "email": "luke-jr+git@utopios.org",
+                  "date": "2012-03-11T22:21:15.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.5.3",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/d05c03ab4ed23389b1326f9b7c77a8d7b8d6588d",
+                "message": "Version 0.5.3 release\n",
+                "tagger": {
+                  "name": "Luke Dashjr",
+                  "email": "luke-jr+git@utopios.org",
+                  "date": "2012-03-14T11:16:43.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.5.4ppc",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/e8ce593351231f2e6031f18d4507bef7ee150976",
+                "message": "Hot fix release May 2016 blockchain incident 32-bit clients fork\n",
+                "tagger": {
+                  "name": "Sunny King",
+                  "email": "sunnyking9999@gmail.com",
+                  "date": "2016-05-06T05:37:57.000+01:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.0ppc.rc1",
+              "target": {}
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.0ppc.rc2",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/38f681dd877126bad78369cbec808c5b8e349f79",
+                "message": "Release candidate 2 for the v0.6 protocol soft-fork on testnet\n",
+                "tagger": {
+                  "name": "hrobeers",
+                  "email": "hansrobeers@gmail.com",
+                  "date": "2017-10-19T23:25:09.000+02:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.0ppc",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/7147c3b8a8c4b0297f7751a1f4ebb97a954a49ac",
+                "message": "Peercoin release v0.6.0\n\nChangelog:\n- Rebase to bitcoin v0.8 codebase (leveldb backend)\n- 90% supermajority softfork including:\n    - BIP34: block height in coinbase\n    - OP_CHECKLOCKTIMEVERIFY\n- Port of peerunity features into reference client\n- Optionally disable checkpoints\n",
+                "tagger": {
+                  "name": "hrobeers",
+                  "email": "hansrobeers@gmail.com",
+                  "date": "2017-11-02T21:58:41.000+01:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.0rc1",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/a15bc1763238e17dfb88f39590a5364a8e1bfff0",
+                "message": "Version 0.6 release candidate 1\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-02-07T13:45:18.000-05:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.0rc2",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/142e604184e3ab6dcbe02cebcbe08e5623182b81",
+                "message": "Version 0.6 release candidate 2\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-02-29T15:51:24.000-05:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.0rc3",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/e318b99d99a44396856e702520182522f9a4b9c5",
+                "message": "Version 0.6, release candidate 3\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-03-13T09:34:28.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.0rc4",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/44b69cf25e73ff164e15c9ca2027c5b871151e32",
+                "message": "Version 0.6, release candidate 4\n",
+                "tagger": {
+                  "name": "Gregory Maxwell",
+                  "email": "greg@xiph.org",
+                  "date": "2012-03-16T15:12:29.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.0rc5",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/8d29329f934b1abb178037e18f434255736b5c81",
+                "message": "Version 0.6.0 release candidate 5\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-03-26T15:42:32.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.0rc6",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/a1c3d8f14dca6a86fa103d86ef125e95372f860c",
+                "message": "Version 0.6 release candidate 6\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-03-29T15:12:41.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.0",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/a1c3d8f14dca6a86fa103d86ef125e95372f860c",
+                "message": "Version 0.6.0\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-03-30T11:22:25.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.1-rc1",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/162f0694f76d11ff5fd1b7ffdf2e01000782fef4",
+                "message": "Peercoin v0.6.1 Release Candidate 1\n\nImplements milestone v0.6.1:\nhttps://github.com/peercoin/peercoin/milestone/1?closed=1\n",
+                "tagger": {
+                  "name": "hrobeers",
+                  "email": "hansrobeers@gmail.com",
+                  "date": "2017-11-04T15:09:18.000+01:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.1ppc",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/8c9f8b589bb9aa63af6a8dc0dbad431acb736545",
+                "message": "Peercoin release v0.6.1\n\nChangelog:\n- \"-zapwallettxes\" cli/config option, used for wallet recovery\n- \"-nominting\" command line option\n- walletpassphrase: limit unlock timeout to safe range\n- refuses to create mints with zero reward.\n- fix minting warning\n- help menu links to chat and forum\n\nMore info: https://github.com/peercoin/peercoin/milestone/1?closed=1\n",
+                "tagger": {
+                  "name": "hrobeers",
+                  "email": "hansrobeers@gmail.com",
+                  "date": "2017-11-07T13:11:43.000+01:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.1rc1",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/0acbe31cfcdd4dd2c3a58bb61ebd9f002f17bda4",
+                "message": "Version 0.6.1 (bug fixes, code cleanups) release candidate 1\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-04-27T12:46:18.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.1rc2",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/be8651dde7b59e50e8c443da71c706667803d06d",
+                "message": "Version 0.6.1 release candidate 2\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-04-30T13:44:06.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.1",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/397737b9133118d71d2c8ba6a95afea0ba7d4350",
+                "message": "Version 0.6.1\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-05-04T10:23:14.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.2-rc1",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/d609c850c14a21e0f047b2d42de88b762f79fbab",
+                "message": "Peercoin v0.6.2 Release Candidate 1\n\nImplements milestone v0.6.2:\nhttps://github.com/peercoin/peercoin/milestone/2?closed=1\n",
+                "tagger": {
+                  "name": "hrobeers",
+                  "email": "hansrobeers@gmail.com",
+                  "date": "2017-12-04T21:12:05.000+01:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.2",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/8ff1873096d29a105ea98d6cd03c4f8f7b9cea0f",
+                "message": "Version 0.6.2 (bug fix release)\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-05-08T13:00:09.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.2.1",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/8f9123a157d0ef479f62eb3e05da2ba6613c5dfc",
+                "message": "0.6.2.1: bug fix for 100% cpu usage on mac.\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-05-09T19:03:31.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.2.2",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/40fd689eb1f72f78752d80e91425811d39a4d466",
+                "message": "OSX-special build (0.6.2 plus fix for 100% cpu usage bug)\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-05-11T10:09:53.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.3rc1",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/6e0c5e3778b83f128f6f14c311d5728392053581",
+                "message": "0.6.3 release candidate 1\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-06-20T09:26:12.000-04:00"
+                }
+              }
+            }
+          },
+          {
+            "tag": {
+              "name": "v0.6.3",
+              "target": {
+                "commitUrl": "https://github.com/peercoin/peercoin/commit/6e0c5e3778b83f128f6f14c311d5728392053581",
+                "message": "Version 0.6.3\n\nThis is a bug-fix release, with no new features.\n\nCHANGE SUMMARY\n==============\n\nFixed a serious denial-of-service attack that could cause the\nbitcoin process to become unresponsive. Thanks to Sergio Lerner\nfor finding and responsibly reporting the problem. (CVE-2012-3789)\n\nOptimized the process of checking transaction signatures, to\nspeed up processing of new block messages and make propagating\nblocks across the network faster.\n\nFixed an obscure bug that could cause the bitcoin process to get\nstuck on an invalid block-chain, if the invalid chain was\nhundreds of blocks long.\n\nBitcoin-Qt no longer automatically selects the first address\nin the address book (Issue #1384).\n\nFixed minimize-to-dock behavior of Bitcon-Qt on the Mac.\n\nAdded a block checkpoint at block 185,333 to speed up initial\nblockchain download.\n",
+                "tagger": {
+                  "name": "Gavin Andresen",
+                  "email": "gavinandresen@gmail.com",
+                  "date": "2012-06-25T09:28:32.000-04:00"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

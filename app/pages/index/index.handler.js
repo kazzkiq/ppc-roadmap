@@ -7,10 +7,17 @@ export default class IndexHandler {
         this.component = new Index({
           target: document.getElementById('app'),
           data: {
-            name: 'world'
+            timeline: []
           }
         });
         console.log('Entered index!');
+        getData().then((result) => {
+          const data = result.data.repository.tags.edges.reverse();
+          console.log(data);
+          this.component.set({
+            timeline: data
+          }); 
+        });
       },
       leave(current, previous) {
         this.component.destroy();
@@ -18,4 +25,16 @@ export default class IndexHandler {
       }
     }
   }
+}
+
+function getData() {
+  return new Promise((resolve, reject) => {
+    fetch('/data.json')
+    .then((result) => {
+      resolve(result.json());
+    })
+    .catch((err) => {
+      reject(err);
+    });
+  });
 }
