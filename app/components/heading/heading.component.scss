@@ -1,21 +1,55 @@
 @import '../../_variables';
 
 .HeadingComp {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 195px;
   background: $color-gray-light;
+  overflow: hidden;
 
   .title {
+    position: relative;
+    z-index: 2;
     font-size: 2.7rem;
     margin: 0 0 1.5rem;
   }
 
   .subtitle {
+    position: relative;
+    z-index: 2;
     font-size: 1.9rem;
     font-weight: normal;
     margin: 0;
+  }
+
+  .blob-logo {
+    position: absolute;
+    z-index: 1;
+    width: 40px;
+    height: 50px;
+    background: url('/img/logo-leaf.svg') no-repeat;
+    background-size: 100% auto;
+    animation: leaf 4s linear forwards;
+    filter: blur(2px);
+  }
+}
+
+@keyframes leaf {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+  }
+
+  50% {
+    opacity: 0.2;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
   }
 }
