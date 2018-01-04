@@ -4,8 +4,8 @@
 <div class="container">
   <div class="label">Show in timeline:</div>
   <Switcher options="{{switcherOptions}}" on:switched="receive(event)" />
-
   <hr>
+  <Timeline timeline="{{timeline}}" />
 </div>
 
 
@@ -17,6 +17,7 @@
   import Topbar from '../../components/topbar/topbar.component';
   import Heading from '../../components/heading/heading.component';
   import Switcher from '../../components/switcher/switcher.component';
+  import Timeline from '../../components/timeline/timeline.component';
 
   export default {
     data() {
@@ -49,7 +50,8 @@
     components: {
       Topbar,
       Heading,
-      Switcher
+      Switcher,
+      Timeline
     }
   }
 </script>
